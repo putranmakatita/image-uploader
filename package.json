@@ -1,0 +1,63 @@
+{
+  "name": "image-upload-vue",
+  "version": "0.2.5",
+  "Author": "Putra Makatita",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name image-upload-vue ./src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "dist/image-upload-vue.common.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^1.6.1",
+    "bootstrap": "^5.1.1",
+    "bootstrap-icons": "^1.5.0",
+    "core-js": "^3.6.5",
+    "image-upload-vue": "^0.2.5",
+    "vue": "^3.0.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/putranmakatita/image-uploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/putranmakatita/image-uploader/issues"
+  },
+  "homepage": "https://github.com/putranmakatita/image-uploader"
+}
